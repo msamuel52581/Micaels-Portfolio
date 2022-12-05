@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html>
+    <!-- WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to 
+sections about them, their work, and how to contact them -->
   <head>
     <title>Micaels Portfolio</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
+
   <body>
+
+    <!-- flexbox, media queries, and CSS variables. -->
     <!-- Header -->
     <header>
       <h1>Micaels Portfolio</h1>
-      <p>Background in Global Supply Chain Management leveraging various ERP systems, for both import and export (foreign/domestic plants), of Consumer-Packaged Goods, Industrial, Medical and Electronic Materials. Experienced in SalesForce, SAP, BW/BI (Business Workplace/Business Intelligence), EDI (Electronic Data Interchange Management), CRM (Customer Relationship Management), OTC (Order-to-Cash Management), Strategic Planning, Cost Management, Transportation & working with cross functional Strategic Business Units in a high-volume environment such as the Merger-to-Spin Off (into 3 separate companies) of Dow & DuPont. Excellent communication and client interface skills, both in speaking & writing. Proven ability for business development, analytical & problem-solving skills, attention to detail, commitment to continual learning & comfortableness with change. Strong organizational skills & ability to multi-task. Able to accept direction on adherence to policies, programs & procedures. Strong teamwork skills to assist others & ability to commit to team goals, activities & schedules in person/virtual teams as well as the ability to work independently. Creative and innovative business perspective skills with the ability to look at problems or projects through the eyes of the customers, competitors, coworkers & executives.</p>
-    </header>
-
-    <!-- Navbar -->
+          <!-- Navbar
+    WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section -->
     <nav>
-        <ol>
+        <ul>
             <li>
                 <a href="#About-Me">About Me</a>
             </li>
@@ -28,27 +32,93 @@
             <li>
                 <a href="Resume">Resume</a>
             </li>
-        </ol>
+        </ul>
     </nav>
+      <p>Background in Global Supply Chain Management leveraging various ERP systems, for both import and export (foreign/domestic plants), of Consumer-Packaged Goods, Industrial, Medical and Electronic Materials. Experienced in SalesForce, SAP, BW/BI (Business Workplace/Business Intelligence), EDI (Electronic Data Interchange Management), CRM (Customer Relationship Management), OTC (Order-to-Cash Management), Strategic Planning, Cost Management, Transportation & working with cross functional Strategic Business Units in a high-volume environment. Excellent communication and client interface skills, both in speaking & writing. Proven ability for business development, analytical & problem-solving skills, attention to detail, commitment to continual learning & comfortableness with change. Strong organizational skills & ability to multi-task. Able to accept direction on adherence to policies, programs & procedures. Strong teamwork skills to assist others & ability to commit to team goals, activities & schedules in person/virtual teams as well as the ability to work independently. Creative and innovative business perspective skills with the ability to look at problems or projects through the eyes of the customers, competitors, coworkers & executives.</p>
+    </header>
+
 
     <!-- Body -->
     <main>
       <aside>
-        <h2>This is a sidebar.</h2>
+        <h2>About Me</h2>
         <div class="sample-img">Image</div>
-        <p>When the screen size hits 576px or smaller...</p>
+        <p> may or may not need flex box here</p>
+      </aside>
+      <aside>
+        <h2>Work</h2>
+        <div class="sample-img">Image</div>
+        <p> may or may not need flex box here</p>
+      </aside>
+      <aside>
+        <h2>Contact Me</h2>
+        <div class="sample-img">Image</div>
+        <p> may or may not need flex box here</p>
       </aside>
 
+<!-- section for portfolio
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications -->
+
+<!-- WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others -->
       <section>
-        <h2>This is the body.</h2>
-        <div class="sample-img">Image</div>
-        <p>..all of the image placeholders will change colors!</p>
-        <br />
-        <h2>But the real problem is...</h2>
-        <div class="sample-img">Image</div>
+        <h2>Horiseon Refactoring</h2>
+        <div class="sample-img">Main Large Image</div>
+        <img
+        src="Assets/Images/Horiseon Refactoring Project.png" 
+        alt="Heriseon logo" 
+        />
+        <a href="http://127.0.0.1:5501/index.html" >Horiseon Refactoring</a>
+        <br/>
+      </section> 
+<!-- WHEN I click on the images of the applications
+    THEN I am taken to that deployed application -->
+    
+      <section>
+
+        <h3>Box 1</h3>
+        <div class="sample-img">Apple - Node/IoT image</div>
+        <img
+            src="Assets/Images/Apple.jpeg" 
+            alt="Apple logo" 
+            />
+            <a href="http://127.0.0.1:5500/micaels-portfolio/Apple.html" >Apple page</a>
         <p>
-          What are we going to do about the sidebar and body columns becoming
-          squished on a smaller screen?
+            Flex box needed here
+        </p>
+        <br />
+        <h3>Box 2</h3>
+        <div class="sample-img">Audible - React/JavaScript/CSS image</div>
+        <img
+        src="Assets/Images/Audible.jpeg" 
+        alt="Audible logo" 
+        />
+        <a href="http://127.0.0.1:5500/micaels-portfolio/Audible.html" >Audible page</a>
+        <p>
+            Flex box needed here
+        </p>
+        <br/>
+        <h3>Box 3</h3>
+        <div class="sample-img">SalesForce - MERN Stack image</div>
+        <img
+        src="Assets/Images/Salesforce.jpeg" 
+        alt="SalesForce logo" 
+        />
+        <a href="http://127.0.0.1:5500/micaels-portfolio/SaleForce.html" >SaleForce page</a>
+        <p>
+          Flex box needed here
+        </p>
+        <br/>
+        <h3>Box 4</h3>
+        <div class="sample-img">Tesla - HTML/CSS image</div>
+        <img
+        src="Assets/Images/Tesla.jpeg" 
+        alt="Tesla logo" 
+        />
+        <a href="http://127.0.0.1:5500/micaels-portfolio/Tesla.html" >Tesla page</a>
+        <p>
+            Flex box needed here
         </p>
       </section>
     </main>
@@ -58,7 +128,10 @@
       <h3>
         Contact Me
       </h3>
-      <p>number email github twitter spotify</p>
+      <p>222-222-2222 xd1378@gmail.com github twitter spotify</p>
     </footer>
   </body>
 </html>
+<!-- 
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport -->

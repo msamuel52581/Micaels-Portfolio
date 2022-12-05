@@ -15,8 +15,11 @@
   }
   
   nav {
-    display: flex;
-    background-color: #d8a47f;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
   }
   
   nav p {
