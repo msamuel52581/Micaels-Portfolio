@@ -13,5 +13,5 @@ Use examples liberally, and show the expected output if you can. It's helpful to
 ## Link
 https://msamuel52581.github.io/micaels-portfolio/
 
-## License
+## MIT License
 Please refer to the license in the repository.
