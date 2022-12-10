@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <title>Micaels Portfolio</title>
     <meta charset="UTF-8" />
@@ -10,75 +9,101 @@
   <body>
     <header>
       <h1>Micaels Portfolio</h1>
-        <nav>
-            <ul>
-                    <li> <a href="#about-me">About Me</a> </li>
-                    <li> <a href="#work">Work</a> </li>
-                    <li> <a href="#contact-me">Contact Me</a> </li>
-                    <li> <a href="resume.html">Resume</a> </li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="nav-ul">
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+      </nav>
     </header>
-     
-    <section id="about-me">
-        <figure class="avatar">  
-        <img src="Assets/Images/Avatar.webp" alt="Avatar"/>
-        </figure>   
-            <p>Background as a Full Stack Developer leveraging various applications such as VS Code, GitHub, GitLab, HTML, CSS & JavaScript. Proven ability for business development, analytical & problem-solving skills, attention to detail, commitment to continual learning & comfortableness with change. Strong organizational skills & ability to multi-task. Able to accept direction on adherence to policies, programs & procedures. Strong teamwork skills to assist others & ability to commit to team goals, activities & schedules in person/virtual teams as well as the ability to work independently. Creative and innovative business perspective skills with the ability to look at problems or projects through the eyes of the customers, competitors, coworkers & executives.</p>
-    </section>
-
     <main>
-      <aside class="side">
-        <h2>About Me</h2>
-      </aside>
-      <aside>
-        <h2>Work</h2>
-      </aside>
-      <aside>
-        <h2>Contact Me</h2>
-      </aside>
+      <section id="about-me" class="flex-container">
+        <div class="aside">
+          <h2>About Me</h2>
+        </div>
+        <div class="about">
+          <figure class="avatar">
+            <img src="Assets/Images/Avatar.webp" alt="Avatar" />
+          </figure>
+          <p>
+            Background as a Full Stack Developer leveraging various applications
+            such as VS Code, GitHub, GitLab, HTML, CSS & JavaScript. Proven
+            ability for business development, analytical & problem-solving
+            skills, attention to detail, commitment to continual learning &
+            comfortableness with change. Strong organizational skills & ability
+            to multi-task. Able to accept direction on adherence to policies,
+            programs & procedures. Strong teamwork skills to assist others &
+            ability to commit to team goals, activities & schedules in
+            person/virtual teams as well as the ability to work independently.
+            Creative and innovative business perspective skills with the ability
+            to look at problems or projects through the eyes of the customers,
+            competitors, coworkers & executives.
+          </p>
+        </div>
+      </section>
+      <section id="work" class="flex-container">
+        <div class="aside">
+          <h2>Work</h2>
+        </div>
+        <div>
+          <div id="work" class="gallery">
+            <figure class="gallery-item main-img">
+              <h3>Horiseon Refactoring - HTML/CSS</h3>
+              <a href="https://msamuel52581.github.io/Horiseon-Refactoring/"
+                ><img
+                  src="Assets/Images/Horiseon Refactoring Project.png"
+                  alt="Horiseon logo"
+              /></a>
+            </figure>
 
-<div id="work" class="gallery">
-    
-    <figure class="gallery-item" id="horiseon">
-        <h2>Horiseon Refactoring - HTML/CSS</h2>
-        
-        <a href="https://msamuel52581.github.io/Horiseon-Refactoring/"><img src="Assets/Images/Horiseon Refactoring Project.png" 
-            alt="Horiseon logo" /></a>
-    </figure>
+            <figure class="gallery-item">
+              <h3 class="gallery-head">Apple - Node/IoT</h3>
 
-    <figure class="gallery-item"> 
-        <h3>Apple - Node/IoT</h3>
-        
-            <a href="Apple.html" ><img src="Assets/Images/Apple.jpeg" 
-                alt="Apple logo"/></a>
-    </figure>
+              <a href="Apple.html"
+                ><img src="Assets/Images/Apple.jpeg" alt="Apple logo"
+              /></a>
+            </figure>
 
-    <figure class="gallery-item"> 
-        <h3>Audible - React/JavaScript/CSS</h3>
-       
-        <a href="Audible.html"><img src="Assets/Images/Audible.jpeg" 
-            alt="Audible logo"/></a>
-    </figure>
+            <figure class="gallery-item">
+              <h3>Audible - React/JavaScript/CSS</h3>
 
-    <figure class="gallery-item"> 
-        <h3>SalesForce - MERN Stack</h3>
-        <a href="SaleForce.html"><img src="Assets/Images/Salesforce.jpeg" 
-            alt="SalesForce logo"/></a>
-    </figure>
+              <a href="Audible.html"
+                ><img src="Assets/Images/Audible.jpeg" alt="Audible logo"
+              /></a>
+            </figure>
 
-    <figure class="gallery-item"> 
-        <h3>Tesla - HTML/CSS</h3>
-        <a href="Tesla.html"><img src="Assets/Images/Tesla.jpeg" 
-            alt="Tesla logo"/></a>
-     </figure>
-</div>
-</main>
+            <figure class="gallery-item">
+              <h3>SalesForce - MERN Stack</h3>
+              <a href="SaleForce.html"
+                ><img src="Assets/Images/Salesforce.jpeg" alt="SalesForce logo"
+              /></a>
+            </figure>
+
+            <figure class="gallery-item">
+              <h3>Tesla - HTML/CSS</h3>
+              <a href="Tesla.html"
+                ><img src="Assets/Images/Tesla.jpeg" alt="Tesla logo"
+              /></a>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer>
-        <section id="contact-me">
-      <h3>Contact Me</h3>
-      <p>222-222-2222 xd1378@gmail.com github twitter spotify</p>
-        </section>
+      <section id="contact-me" class="flex-container">
+        <div class="aside">
+          <h2>Contact Me</h2>
+        </div>
+        <ul>
+          <li>222-222-2222</li>
+          <li>xd1378@gmail.com</li>
+          <li>github</li>
+          <li>twitter</li>
+          <li>spotify</li>
+        </ul>
+      </section>
     </footer>
-</body>
+  </body>
 </html>
