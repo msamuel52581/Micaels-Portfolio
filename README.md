@@ -7,9 +7,6 @@ My project will be able to show hiring managers a portfolio of my work, know abo
 ## Visuals
 ![Screenshot](assets/Images/02-advanced-css-homework-demo.gif)
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
 ## Link
 https://msamuel52581.github.io/micaels-portfolio/
 
